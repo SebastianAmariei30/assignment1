@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+        int a,b,s,ss;
+        float m;
+        printf("Enter two numbers:");
+        scanf("%d", &a);
+        scanf("%d", &b);
+        s=a+b;
+        printf("The sum of these two numbers is: %d\n",s);
+        m=(float)s/2;
+        printf("The average of these two numbers is %f\n",m);
+        ss=a*a+b*b;
+        printf("The sum of the squares of the numbers is: %d",ss);
+        return 0;
+}
+
+
